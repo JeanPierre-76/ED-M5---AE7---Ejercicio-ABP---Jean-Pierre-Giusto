@@ -1,0 +1,53 @@
+/* Estílo del header */
+#formato-formulario {
+  text-align: center;
+}
+
+/* Estílo centrado imagenes del Article */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.fit-image{
+  width: 50%;
+  object-fit: cover;
+  height: 100px; /* only if you want fixed height */
+  }
+
+.row{
+  float: left;
+  width:100%;
+}
+
+.left{
+  float:left;
+}
+
+.bg-image{
+  background-image: url(../img/quienessomos.png);
+  height: 400px;
+}
+
+.boton{
+  /* unvisited link */
+  button:link {
+    color: white;
+    background-color: yellow;
+  }
+  /* visited link */
+  button:visited {
+    color: white;
+    background-color: yellow;
+  }
+  /* mouse over link */
+  button:hover {
+    color: rgb(255, 0, 0);
+    background-color: yellow;
+  }
+  /* selected link */
+  button:active {
+    color: rgb(255, 0, 0);
+    background-color: yellow;
+  }
+}
